@@ -1,0 +1,138 @@
+@charset "UTF-8";
+
+
+.btn-outline-success{
+    color: darkgreen;
+    border-color: darkgreen;
+}
+
+.carouselExampleIndicators{
+    transition: all 0.3s;
+}
+
+
+footer{
+    background-color: #ccc;
+    color: #000;
+}
+
+.first-line {
+    border-bottom: 1px solid #c2c2c2;
+    font-weight: 700;
+    font-size: 28px;
+}
+
+.second-line a{
+    color: #000;
+    text-decoration: none;
+}
+.third-line{
+    display: none;
+    border-top: 1px solid #c2c2c2;
+}
+.slide{
+    display: flex;
+    justify-content: space-evenly;
+    
+}
+.slide p{
+    font-size: 1rem;
+}
+
+
+.text_box{
+    padding-top: 300px;
+    text-align: center;
+}
+
+
+/* slick-slider */
+/*Slick Slide*/
+.custom-slider h2 {
+	font-size: 24px;
+	color: #000;
+	font-family: koreaM;
+	text-align: center;
+}
+
+.custom-slider {
+	width: 100%;
+	height: auto;
+	margin: 50px auto 0;
+}
+
+.custom-box {
+	width: 200px;
+	height: 250px;
+	margin: 15px;
+	padding: 20px;
+}
+
+.custom-box img {
+	width: 100%;
+	max-width: 100%;
+}
+.accordion-body{
+    border: 1px solid #ccc;
+}
+.community{
+    display: flex;
+    justify-content: flex-end;
+    text-align: center;
+    list-style: none;
+}
+.community img{
+    width: 50%;
+}
+@media all and (min-width:768px){
+    .accordion{
+        display: none;
+    }
+}
+@media all and (min-width:1200px){
+    .accordion{
+        display: none;}
+    .for-line{
+        font-size: 0.8rem;
+        border-top: 1px solid #c2c2c2;
+        padding: 20px;
+    }
+}
+@media screen and (max-width:48rem){
+    .first-line{
+        text-align: center;
+        font-size: 28px;
+        font-weight: 700;
+    }
+}
+
+
+@media screen and (max-width:48rem){
+    .second-line{
+        padding-left: 2rem;
+        padding-right: 2rem;
+    }
+}
+
+@media screen and (max-width:48rem){
+    .third-line{
+        display: block;
+    }
+}
+
+@media screen and (max-width:48rem){
+    .slide{
+        display: block;
+    }
+    .text_box{
+        margin: 20px 0 20px 0;
+    }
+
+}
+
+@media screen and (max-width:48rem){
+    .for-line{
+        display: none;
+    }
+
+}
